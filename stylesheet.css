@@ -1,10 +1,17 @@
+*{
+padding: 0px;
+}
+
+body{
+	width:1000px;
+	margin:auto;
+}
 ul{
 list-style-type:none;
 }
 
 ul > li {
 	display: inline;
-	margin:5px;
 }
 
 nav{
@@ -31,38 +38,39 @@ img{
 	-webkit-animation: myfirsts 2s linear; /* Safari and Chrome */
 }
 
-@keyframes myfirst
-{
-from {opacity: 1;}
-to {opacity: 0;}
+@keyframes myfirst{
+	from {opacity: 1;}
+	to {opacity: 0;}
 }
 
-@-moz-keyframes myfirst /* Firefox */
-{
-from {opacity: 1;}
-to {opacity: 0;}
+@-moz-keyframes myfirst /* Firefox */{
+	from {opacity: 1;}
+	to {opacity: 0;}
 }
 
-@-webkit-keyframes myfirst /* Safari and Chrome */
-{
-from {opacity: 1;}
-to {opacity: 0;}
+@-webkit-keyframes myfirst /* Safari and Chrome */{
+	from {opacity: 1;}
+	to {opacity: 0;}
 }
 
-@keyframes myfirsts
-{
-from {opacity: 0;}
-to {opacity: 1;}
+@keyframes myfirsts{
+	from {opacity: 0;}
+	to {opacity: 1;}
 }
 
-@-moz-keyframes myfirsts /* Firefox */
-{
-from {opacity: 0;}
-to {opacity: 1;}
+@-moz-keyframes myfirsts /* Firefox */{
+	from {opacity: 0;}
+	to {opacity: 1;}
 }
 
-@-webkit-keyframes myfirsts /* Safari and Chrome */
-{
-from {opacity: 0;}
-to {opacity: 1;}
+@-webkit-keyframes myfirsts /* Safari and Chrome */{
+	from {opacity: 0;}
+	to {opacity: 1;}
 }
+
+
+
+
+
+
+

@@ -1,11 +1,17 @@
 function doFirst(){
 	if(typeof(Storage)!=="undefined"){
-		localStorage.content="hier bin ich ";
+		localStorage.content=	"<article>"+
+									"<h4>Willkommen im DJ-Team Bereich</h4>"+
+									"<p>Wir organisieren ihre Party und machen sie zu einem Einmaligen Erlebnis"+
+									"Schauen sie doch mal in unserem Terminkalender ob wir nicht einen Gemeisamen Termin frei haben"+
+									"Sollte dies der Fall sein schrieben sie uns doch einfach eine e-Mail"+
+									"Viel Spaß beim stöbern in unserer Bildergalerie</p>"+
+								"</article>";
 		content = document.getElementById('content');
-		content.innerHTML="You have clicked the button " + localStorage.content + " time(s).";
+		content.innerHTML=localStorage.content;
 	  }
 	else{
-		document.getElementById("cplSite").innerHTML="<p>Sie benutzen einen veralteten Browser, deshalb kann die seite nicht richtig dargestellt werden und sie erhalten nur die wichtigsten Informationen und Kontaktdaten.</p>";
+		document.getElementById("cplSite").innerHTML="<p>Sie benutzen einen veralteten Browser, deshalb kann die Seite nicht richtig dargestellt werden und sie erhalten nur die wichtigsten Informationen und Kontaktdaten.</p>";
 	  }
 }
 
@@ -33,10 +39,32 @@ function veranstaltungen()
 
 
 function veranstaltungenDelay(){
-	localStorage.content=	 "Die Frage nach dem Preis ist eine der meistgestellten überhaupt. Leider lässt sich diese nicht pauschal beantworten, denn jede Veranstaltung ist sehr individuell"
-							+"und hängt sehr von den Rahmenbedingungen ab."
- 							+"Um ihre Veranstaltung optimal gestalten zu können, benötigen wir einige Informationen von Ihnen:"
-							+"Datum";
+	localStorage.content=	"<article>"+
+								"<h4>Preislich ???</h4>"+
+								"<p>Die Frage nach dem Preis ist eine der meistgestellten überhaupt. Leider lässt sich diese nicht pauschal beantworten, denn jede Veranstaltung ist sehr individuell"+
+								"und hängt sehr von den Rahmenbedingungen ab."+
+ 								"Um ihre Veranstaltung optimal gestalten zu können, benötigen wir einige Informationen von Ihnen:"+
+								"Datum</p>"+
+							"</article>";
+	content.innerHTML=localStorage.content;
+	change('ins');
+}
+
+function equipmentverleih()
+{	
+	change('out');
+	setTimeout("equipmentverleihDelay()", 2000);
+}
+
+
+function equipmentverleihDelay(){
+	localStorage.content=	 "<article>"+
+								"<h4>Preislich ???</h4>"+
+								"<p>Die Frage nach dem Preis ist eine der meistgestellten überhaupt. Leider lässt sich diese nicht pauschal beantworten, denn jede Veranstaltung ist sehr individuell"+
+								"und hängt sehr von den Rahmenbedingungen ab."+
+	 							"Um ihre Veranstaltung optimal gestalten zu können, benötigen wir einige Informationen von Ihnen:"+
+								"Datum</p>"+
+							"</article>";
 	content.innerHTML=localStorage.content;
 	change('ins');
 }
@@ -58,6 +86,18 @@ function djTeamDelay(){
 						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/test.jpg'\></article>"
 						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/test.jpg'\></article>"
 						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/test.jpg'\></article>";
+	content.innerHTML=localStorage.content;
+	change('ins');
+}
+
+function topTen()
+{	
+	change('out');
+	setTimeout("topTenDelay()", 2000);
+}
+
+function topTenDelay(){
+	localStorage.content=	"<article><p>hier die top Ten!!!</p></article>";
 	content.innerHTML=localStorage.content;
 	change('ins');
 }
