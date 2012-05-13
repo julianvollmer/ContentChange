@@ -1,0 +1,68 @@
+ul{
+list-style-type:none;
+}
+
+ul > li {
+	display: inline;
+	margin:5px;
+}
+
+nav{
+	margin-top:20px;
+}
+
+
+img{
+	margin:10px;
+	width:200px;
+}
+#content{
+}
+
+.out{
+	animation: myfirst 2s linear;
+	-moz-animation: myfirst 2s linear; /* Firefox */
+	-webkit-animation: myfirst 2s linear; /* Safari and Chrome */
+
+}
+.ins{
+	animation: myfirsts 2s linear;
+	-moz-animation: myfirsts 2s linear; /* Firefox */
+	-webkit-animation: myfirsts 2s linear; /* Safari and Chrome */
+}
+
+@keyframes myfirst
+{
+from {opacity: 1;}
+to {opacity: 0;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {opacity: 1;}
+to {opacity: 0;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {opacity: 1;}
+to {opacity: 0;}
+}
+
+@keyframes myfirsts
+{
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+@-moz-keyframes myfirsts /* Firefox */
+{
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+@-webkit-keyframes myfirsts /* Safari and Chrome */
+{
+from {opacity: 0;}
+to {opacity: 1;}
+}
