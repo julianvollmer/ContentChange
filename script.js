@@ -49,15 +49,15 @@ function djTeam()
 
 
 function djTeamDelay(){
-	localStorage.content=	"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/djteam01big.jpg'\></article>"
-						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/djteam02big.jpg'\></article>"
-						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/djteam03big.jpg'\></article>"
-						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/djteam04big.jpg'\></article>"
-						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/djteam05big.jpg'\></article>"
-						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/djteam06big.jpg'\></article>"
-						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/djteam07big.jpg'\></article>"
-						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/djteam08big.jpg'\></article>"
-						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/djteam09big.jpg'\></article>";
+	localStorage.content=	"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/test.jpg'\></article>"
+						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/test.jpg'\></article>"
+						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/test.jpg'\></article>"
+						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/test.jpg'\></article>"
+						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/test.jpg'\></article>"
+						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/test.jpg'\></article>"
+						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/test.jpg'\></article>"
+						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/test.jpg'\></article>"
+						   +"<article><p>Hier haben wir einen tollen 30. bespielt :) </p><img src='bilder/test.jpg'\></article>";
 	content.innerHTML=localStorage.content;
 	change('ins');
 }
